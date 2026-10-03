@@ -9,8 +9,8 @@
   },
   "packages": {
     "url": "https://raw.githubusercontent.com/MadRC/KiCad-Library/main/pcm/packages.json",
-    "sha256": "6cb010265c8327cafb9030477b579e04116f40dad81d02d080d07d1e236648f2",
-    "update_timestamp": 1791039599,
-    "update_time_utc": "2026-10-03 14:59:59"
+    "sha256": "e9918e3a46b6f0641b0af6cb7a7194f07e832aab51dc15e729db505ecaaea9d5",
+    "update_timestamp": 1791040827,
+    "update_time_utc": "2026-10-03 15:20:27"
   }
 }

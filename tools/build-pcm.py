@@ -68,8 +68,8 @@ def main():
         "resources": {"homepage": "https://github.com/MadRC/KiCad-Library"},
         "versions": [],
     }
-    json.dump(meta, open(f"{stage}/metadata.json", "w"), indent=2)
-
+    archive_meta = dict(meta, versions=[{"version": version, "status": "stable", "kicad_version": KICAD_VER}])
+    json.dump(archive_meta, open(f"{stage}/metadata.json", "w"), indent=2)
     zip_name = f"OpenDrone-KiCad-Library_{version}.zip"
     zip_path = f"dist/{zip_name}"
     with zipfile.ZipFile(zip_path, "w", zipfile.ZIP_DEFLATED) as z:
