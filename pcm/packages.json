@@ -3,9 +3,9 @@
     {
       "$schema": "https://go.kicad.org/pcm/schemas/v1",
       "name": "OpenDrone KiCad Library",
-      "description": "Symbols, footprints and 3D models for every part manufactured on an OpenDrone board.",
-      "description_full": "The parts catalogue of the OpenDrone open source FPV hardware line by incutec: every symbol, footprint and 3D model here is used on a board that has been through a real JLCPCB assembly run. Symbols carry LCSC part numbers for JLCPCB ordering. Hardware line: https://github.com/OpenDrone-hw",
-      "identifier": "com_github_opendrone-hw_kicad-library",
+      "description": "Symbols, footprints, 3D models and pinned datasheets for manufactured OpenDrone parts.",
+      "description_full": "The parts catalogue of the OpenDrone open source FPV hardware line by incutec: every physical symbol links to an exact, packaged datasheet, and every component has been used on a board through a real JLCPCB assembly run. Symbols carry LCSC part numbers for JLCPCB ordering. Hardware line: https://github.com/OpenDrone-hw",
+      "identifier": "com.github.opendrone-hw.kicad-library",
       "type": "library",
       "author": {
         "name": "incutec",
@@ -15,17 +15,17 @@
       },
       "license": "CERN-OHL-S-2.0",
       "resources": {
-        "homepage": "https://github.com/OpenDrone-hw/KiCad-Library"
+        "homepage": "https://github.com/MadRC/KiCad-Library"
       },
       "versions": [
         {
           "version": "1.1.0",
           "status": "stable",
           "kicad_version": "10.0",
-          "download_url": "https://github.com/OpenDrone-hw/KiCad-Library/releases/download/pcm-v1.1.0/OpenDrone-KiCad-Library_1.1.0.zip",
-          "download_sha256": "bb85119a3365a3c19d234e0003ea4de9087a60fbd80a49d759e1528599db16eb",
-          "download_size": 38829120,
-          "install_size": 214373196
+          "download_url": "https://github.com/MadRC/KiCad-Library/releases/download/pcm-v1.1.0/OpenDrone-KiCad-Library_1.1.0.zip",
+          "download_sha256": "eb20a5b7d015531012f3d1b1493da65ab03956fa500eeb563b65b485727aa7d1",
+          "download_size": 110385975,
+          "install_size": 302571968
         }
       ]
     }

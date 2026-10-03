@@ -15,11 +15,11 @@ Then attach the zip to a GitHub release tagged pcm-v<version>.
 """
 import hashlib, json, os, re, shutil, sys, time, zipfile
 
-IDENT = "com_github_opendrone-hw_kicad-library"
+IDENT = "com.github.opendrone-hw.kicad-library"
 KICAD_VER = "10.0"
 THIRD_PARTY = "${KICAD10_3RD_PARTY}"
-REPO_RAW = "https://raw.githubusercontent.com/OpenDrone-hw/KiCad-Library/main/pcm"
-RELEASE_URL = "https://github.com/OpenDrone-hw/KiCad-Library/releases/download"
+REPO_RAW = "https://raw.githubusercontent.com/MadRC/KiCad-Library/main/pcm"
+RELEASE_URL = "https://github.com/MadRC/KiCad-Library/releases/download"
 
 
 def sha256(path):
@@ -65,7 +65,7 @@ def main():
         "type": "library",
         "author": {"name": "incutec", "contact": {"web": "https://opendrone.be"}},
         "license": "CERN-OHL-S-2.0",
-        "resources": {"homepage": "https://github.com/OpenDrone-hw/KiCad-Library"},
+        "resources": {"homepage": "https://github.com/MadRC/KiCad-Library"},
         "versions": [],
     }
     json.dump(meta, open(f"{stage}/metadata.json", "w"), indent=2)

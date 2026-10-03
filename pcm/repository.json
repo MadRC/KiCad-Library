@@ -8,9 +8,9 @@
     }
   },
   "packages": {
-    "url": "https://raw.githubusercontent.com/OpenDrone-hw/KiCad-Library/main/pcm/packages.json",
-    "sha256": "60e29b82e6bb4009259919e7e751e7fa729c65eee94837dc67c73901f5b02be1",
-    "update_timestamp": 1786800218,
-    "update_time_utc": "2026-08-15 13:23:38"
+    "url": "https://raw.githubusercontent.com/MadRC/KiCad-Library/main/pcm/packages.json",
+    "sha256": "6cb010265c8327cafb9030477b579e04116f40dad81d02d080d07d1e236648f2",
+    "update_timestamp": 1791039599,
+    "update_time_utc": "2026-10-03 14:59:59"
   }
 }
